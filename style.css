@@ -2,6 +2,10 @@ body{
     
 }
 
+.titulo-principal{
+    padding-left: 30px;
+}
+
 #banner{
     width: 100%; /*La pagina ocupa el 100% del ancho de la pagina*/
 }
@@ -11,7 +15,7 @@ body{
     padding: 20px;
 }
 
-h1{
+.titulo-centralizado{
     text-align: center;
 }
 p{
@@ -29,10 +33,6 @@ em strong{
 .diferenciales{
     background: white;
     padding: 30px;
-}
-
-h2{
-    text-align: center;
 }
 
 .items{
