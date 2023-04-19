@@ -62,6 +62,18 @@ nav a{
     margin-top: 10px;
 }
 
+footer{
+    text-align: center;
+    background: url(./imag/productos/bg.jpg); /*Automaticamente background repite la imagen de tal forma que ocupe todo el fondo del espacio*/
+    padding: 40px;
+}
+
+.copyright{
+    color: whitesmoke;
+    font-size: 13px;
+    margin: 20px;
+}
+
 /*TODO I N T E R A C T I V I D A D */
 
 /*! hover interaccion al pasar el cursor*/
