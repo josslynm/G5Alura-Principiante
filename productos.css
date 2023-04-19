@@ -1,0 +1,26 @@
+header{
+    background-color: #BBBBBB;
+    
+}
+.caja{
+    width: 940px; /**1280px es lo comun de las pantallas es decir el aprox del 70% de la pagina*/
+    position: relative; /*Relativo respecto a su posicion original, los elementos debajo de el respetaran su posicion, es decir siguien el flujo del enmaquetado */
+    margin: 0 auto; /**Centrado a */
+}
+nav{
+    position: absolute; /**Para forzar una posición en el contenedor del objeto p.e situar el objeto a la esq superior derecha top:0 right: 0 los elementos debajo de el no respetaran su posicion original es decir este elemento se pondra "delante del texto"*/
+    top: 110px; /**Basado que lo queremos aprox a la mitad de la altura de el logo principal (250px) */
+    right: 0;
+
+}
+nav li{
+    display: inline; /*Que ocupe solo el tamaño de su contenido*/
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
