@@ -1,8 +1,13 @@
 body{
-    background: #CCCCCC;
+    
 }
+
 #banner{
     width: 100%; //La pagina ocupa el 100% del ancho de la pagina
+}
+
+.principal{
+    background: #CCCCCC;
 }
 
 h1{
@@ -19,6 +24,14 @@ p{
 em strong{
     color: red;
 } /*Seleccionando especificamente el strong en em*/
+
+.diferenciales{
+    background: white;
+}
+
+h2{
+    text-align: center;
+}
 
 .items{
     font-style: italic;
