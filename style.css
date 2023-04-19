@@ -1,3 +1,5 @@
+/*!BARRA DE NAVEGACION */
+
 header{
     background-color: #BBBBBB;
     
@@ -24,6 +26,9 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+/*! FIN BARRA DE NAVEGACION */
+
+/* P R O D U C T O S */
 
 .productos{
     width: 940px; /*Adaptandose a los pixeles de las pantallas*/
@@ -62,6 +67,39 @@ nav a{
     margin-top: 10px;
 }
 
+/* FIN P R O D U C T O S */
+
+/*TODO C O N T A C T O */
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin:40px 0;
+}
+
+form label{
+    display: block; /*! formularios por default estan en display: inline (forma horizontal) de esta forma pasamos vertical*/
+    font-size: 20px;
+    margin: 0  0 10px;
+
+}
+form input{
+    display: block; /*! formularios por default estan en display: inline (forma horizontal) de esta forma pasamos vertical*/
+    margin: 0 0 20px;
+    padding:10px 25px ;
+    width: 50%;
+
+}
+
+
+
+/*TODO F I N        C O N T A C T O */
+
+
+/*!F O O T E R */ 
+
 footer{
     text-align: center;
     background: url(./imag/productos/bg.jpg); /*Automaticamente background repite la imagen de tal forma que ocupe todo el fondo del espacio*/
@@ -73,6 +111,7 @@ footer{
     font-size: 13px;
     margin: 20px;
 }
+/*!FIN F O O T E R */ 
 
 /*TODO I N T E R A C T I V I D A D */
 
@@ -95,3 +134,4 @@ nav a:hover{
 .productos li:active{
     border-color: green;
 }
+/*TODO FIN I N T E R A C T I V I D A D */
