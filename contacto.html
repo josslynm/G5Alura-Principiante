@@ -32,32 +32,44 @@
         <form action="">
             
             <label for="nombre-apellido">Nombre y Apellido </label> <!--Referencia al id de input-->
-            <input type="text" class="input-padron"  id="nombre-apellido">
+            <input type="text" class="input-padron"  id="nombre-apellido" required> <!--required para dato necesario -->
 
             <label for="correoElectronico">Correo electrónico</label>
-            <input class="input-padron" type="text" id="correoElectronico">
+            <input class="input-padron" type="email" id="correoElectronico" placeholder="email@dominio.com"  >
 
             <label for="telefono">Teléfono</label>
-            <input class="input-padron" type="text" id="telefono">
+            <input class="input-padron" type="tel" id="telefono" placeholder="(XX) XXXXXXXX)"  > <!--placeholder para visualizar ejemplo de input-->
             
             <label for="mensaje">Mensaje</label>
             <textarea  class="input-padron" id="mensaje" cols="70" rows="10"></textarea>
 
-            <div>
-                <p>¿Cómo le gustaría que lo contactemos?</p>
-
-            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email" >Email</label>
-             <!--name="" se usa para indicar cuales pertenecen a una sola seccion y de esta forma se pueda seleccionar una sola opcion-->
-
-            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono" >Teléfono</label>
+            <fieldset>
+                
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+    
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email" >Email</label>
+                <!--name="" se usa para indicar cuales pertenecen a una sola seccion y de esta forma se pueda seleccionar una sola opcion-->
+    
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono" >Teléfono</label>
+                
+                
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                
+            </fieldset> <!-- fieldset indica que referencias a un mismo conjunto de tipo de datos-->
             
-            
-            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" >WhatsApp</label>
-            
+            <fieldset>
+                <legend>¿En cual horario pregiere se atendido?</legend>
+                <select >
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
 
             </div>
+            
 
-            <label class="checkbox" for=""><input type="checkbox" name="" id=""> ¿Le gustaría recibir novedades de la Barbería Alura? </label>
+            <label class="checkbox" for=""><input type="checkbox" name="" id="" checked> ¿Le gustaría recibir novedades de la Barbería Alura? </label> <!--checked por defecto selecciona la opcion-->
             
             <input type="submit" value="Enviar formulario"> <!--value para cambiar el nombre del boton-->
 
