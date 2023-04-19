@@ -1,10 +1,25 @@
-p{
-    text-align: center;
-}
 body{
     background: #CCCCCC;
 }
+#banner{
+    width: 100%; //La pagina ocupa el 100% del ancho de la pagina
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+#mision{
+    font-size: 20px;
+}
+
 em strong{
     color: red;
-} //Seleccionando especificamente el strong en em
+} /*Seleccionando especificamente el strong en em*/
 
+.items{
+    font-style: italic;
+} /*Estilo en listas*/
