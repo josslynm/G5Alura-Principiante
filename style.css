@@ -3,11 +3,12 @@ body{
 }
 
 #banner{
-    width: 100%; //La pagina ocupa el 100% del ancho de la pagina
+    width: 100%; /*La pagina ocupa el 100% del ancho de la pagina*/
 }
 
 .principal{
     background: #CCCCCC;
+    padding: 20px;
 }
 
 h1{
@@ -27,6 +28,7 @@ em strong{
 
 .diferenciales{
     background: white;
+    padding: 30px;
 }
 
 h2{
@@ -36,3 +38,15 @@ h2{
 .items{
     font-style: italic;
 } /*Estilo en listas*/
+
+ul{
+    display: inline-block; /*Para que ocupe solo el espcio de su contenido y no se extienda a lo largo del sitio*/
+    vertical-align: top; /*Para que se alinee verticalmente en la parte superior (no en medio ni abajo)*/
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%; /*cambiando su tamaño de ancho*/
+
+}
