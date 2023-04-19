@@ -97,6 +97,17 @@ form label,  form legend{
     margin: 20px 0;
 }
 
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+}
+
 
 /*TODO F I N        C O N T A C T O */
 
@@ -137,4 +148,15 @@ nav a:hover{
 .productos li:active{
     border-color: green;
 }
+
+.enviar:hover{
+    background: darkorange;
+    /*transition: 1s background; para que el cambio de color sea lento*/
+}
+
+.enviar:active{
+    background: gray;
+    
+}
+
 /*TODO FIN I N T E R A C T I V I D A D */
