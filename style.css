@@ -69,30 +69,33 @@ nav a{
 
 /* FIN P R O D U C T O S */
 
-/*TODO C O N T A C T O */
 main{
     width: 940px;
     margin: 0 auto;
 }
 
+/*TODO C O N T A C T O */
+
 form{
     margin:40px 0;
 }
 
-form label{
+form label,  form p{
     display: block; /*! formularios por default estan en display: inline (forma horizontal) de esta forma pasamos vertical*/
     font-size: 20px;
     margin: 0  0 10px;
 
 }
-form input{
+.input-padron{
     display: block; /*! formularios por default estan en display: inline (forma horizontal) de esta forma pasamos vertical*/
     margin: 0 0 20px;
     padding:10px 25px ;
     width: 50%;
-
 }
 
+.checkbox{
+    margin: 20px 0;
+}
 
 
 /*TODO F I N        C O N T A C T O */
