@@ -42,6 +42,13 @@ nav a{
     clear: left;
 }
 
+.utensilios{
+    width: 150px; 
+    float: left; /*Funciona como "en linea con el texto" deja que el contenido siguiente al elemeto se acomode segun la posicion que le indicamos en este caso nuestro elemento se posiciono a la izq por lo tanto lo demas se acomodara a la derecha respetando su espacio"*/
+    margin: 0 20px 20px 0;
+    border-radius: 3px;
+}
+
 .principal p{
     margin: 0 0 1em;
 }
@@ -53,16 +60,27 @@ nav a{
 .principal em{
     font-style: italic;
 }
+.mapa{
+    padding: 3em 0;
+}
+
+.mapa p{
+    margin: 0 0 1em;
+    text-align: center;
+}
 
 .imagenDiferenciales{
     width: 60%;
 }
-
-.utensilios{
-   width: 150px; 
-   float: left; /*Funciona como "en linea con el texto" deja que el contenido siguiente al elemeto se acomode segun la posicion que le indicamos en este caso nuestro elemento se posiciono a la izq por lo tanto lo demas se acomodara a la derecha respetando su espacio"*/
-   margin: 0 20px 20px 0;
+.video{
+    width: 560px;
+    margin: 1em auto;
+    
 }
+
+
+
+
 
 /*FIN    H O M E */
 
