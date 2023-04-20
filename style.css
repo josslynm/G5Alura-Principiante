@@ -59,8 +59,8 @@ nav a{
 }
 
 .utensilios{
-   width: 120px; 
-   float: left; /*Funciona como "en linea con el texto" deja que el contenido siguiente al elemeto se acomode segun la posicion que le indicamos en este caso nuestro elemento se posiciono a la izq por lo tanto lo demas se acomodara a la derecha respetando su espacio"
+   width: 150px; 
+   float: left; /*Funciona como "en linea con el texto" deja que el contenido siguiente al elemeto se acomode segun la posicion que le indicamos en este caso nuestro elemento se posiciono a la izq por lo tanto lo demas se acomodara a la derecha respetando su espacio"*/
    margin: 0 20px 20px 0;
 }
 
@@ -106,6 +106,9 @@ nav a{
 }
 
 /* FIN P R O D U C T O S */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 main{
     width: 940px;
