@@ -369,8 +369,14 @@ nav a:hover{
         margin: 10px 0 10px 0;
     }
 
+    .productos-imagenes{
+        width: 70%;
+    }
+
     form{
      margin-left: 20px;
     }
+
+    
 
 }
