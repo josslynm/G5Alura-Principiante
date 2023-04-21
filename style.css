@@ -51,6 +51,16 @@ nav a{
     font-weight: bold;
     margin: 0 0 2em;
     clear: left;
+    text-shadow: 2px 2px #888888;
+}
+
+.titulo-principal-plomo{
+    text-align: center;
+    font-size: 2em; /*2 veces el tamaño de fuente padron)*/
+    font-weight: bold;
+    margin: 0 0 2em;
+    clear: left;
+    text-shadow: 2px 2px #565656;
 }
 
 .utensilios{
@@ -127,6 +137,7 @@ nav a{
 .imagen-diferenciales{
     width: 60%;
     border-radius: 5px;
+    box-shadow: 10px 10px 30px 10px black; /*horizontal vertical opacidad difuminado color*/
 }
 .video{
     
@@ -287,6 +298,11 @@ nav a:hover{
 
 }
 
+.imagen-diferenciales:hover{
+    opacity: 0.35;
+    transition: 400ms;
+}
+
 .productos li:hover{
     border-color: #c78c19;
 }
@@ -303,7 +319,7 @@ nav a:hover{
 .enviar:hover{
     background: darkorange;
     
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: 1s all;
     /*transition: 1s background; para que el cambio de color sea lento*/
 }
