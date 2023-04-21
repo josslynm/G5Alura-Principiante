@@ -201,13 +201,28 @@ form label,  form legend{
     display: block; /*! formularios por default estan en display: inline (forma horizontal) de esta forma pasamos vertical*/
     font-size: 20px;
     margin: 0  0 10px;
+    font-weight: ;
 
 }
+
+label:not(.option-label),legend{
+    font-weight: bold;
+} /*Todos los titulos del formulario excepto los de opciones estan en negritas*/
+
+fieldset{
+    margin: 1em 0 1em;
+}
+
 .input-padron{
     display: block; /*! formularios por default estan en display: inline (forma horizontal) de esta forma pasamos vertical*/
     margin: 0 0 20px;
     padding:10px 25px ;
     width: 50%;
+}
+
+select{
+    padding: 0.2em;
+    font-size: 18px;
 }
 
 .checkbox{
