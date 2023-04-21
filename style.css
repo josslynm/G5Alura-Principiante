@@ -54,7 +54,7 @@ nav a{
 }
 
 .utensilios{
-    width: 150px; 
+    width: 180px; 
     float: left; /*Funciona como "en linea con el texto" deja que el contenido siguiente al elemeto se acomode segun la posicion que le indicamos en este caso nuestro elemento se posiciono a la izq por lo tanto lo demas se acomodara a la derecha respetando su espacio"*/
     margin: 0 20px 20px 0;
     border-radius: 3px;
@@ -62,6 +62,7 @@ nav a{
 
 .principal p{
     margin: 0 0 1em;
+    line-height: 1.2;
 }
 
 .principal strong{
@@ -144,6 +145,7 @@ nav a{
 
 /* P R O D U C T O S */
 
+
 .productos{
     width: 940px; /*Adaptandose a los pixeles de las pantallas*/
     margin: 0 auto;
@@ -187,7 +189,9 @@ nav a{
 /*TODO C O N T A C T O */
 
 form{
-    margin:40px 0;
+   
+    width: 940px;
+    margin: 4em auto;
 }
 
 form label,  form legend{
@@ -216,6 +220,10 @@ form label,  form legend{
     background: orange;
     border: none;
     border-radius: 5px;
+}
+.tabla-horario{
+    width: 940px;
+    margin: 0 auto;
 }
 
 table{
