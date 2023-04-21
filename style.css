@@ -330,3 +330,38 @@ nav a:hover{
 }
 
 /*TODO FIN I N T E R A C T I V I D A D */
+
+/*! M   E   D   I   A       Q   U   E   R   Y*/
+
+@media screen and (max-width:480px){
+    
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+        padding-bottom: 10px;
+        
+    }
+    nav li{
+        display: block; /*Que ocupe solo el tamaño de su contenido*/
+
+        margin: 0 0 0 5px;
+        
+    }
+    
+    .caja,.principal,.mapa-contenido,.contenido-diferenciales, .contenido-video,.contenido-principal{
+        width: auto;
+    }
+
+    .lista-diferenciales{
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .imagen-diferenciales{
+        width: 100%;
+    }
+
+
+}
